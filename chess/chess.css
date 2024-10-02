@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/1.jpg);
+    background-image: fixed;
+    background-position: 100vw ;
+}
+
+.chess{
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    display:flex ;
+    flex-wrap: wrap;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 1px white;
+}
+
+.a{
+    width: calc(100% /8);
+    height: calc(100% /8);
+    background-color: white;
+}
+
+.b{
+    width: calc(100% /8);
+    height: calc(100% /8);
+    background-color: black;
+}
